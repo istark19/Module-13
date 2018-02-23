@@ -2,7 +2,7 @@ import setup
 import RoboPiLib as RPL
 import time
 
-sensor_pin = 7
+sensor_pin = 16
 RPL.pinMode(sensor_pin,RPL.INPUT)
 
 while True:
